@@ -1,0 +1,31 @@
+//Section Recipe of the day
+.main__articles__first{
+   
+    //Title of the recipe
+    &__title {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: $normal-font;
+    font-size: $medium-font-size;
+    color: $dark-green;
+    }
+
+    //Picture of the recipe
+    &__picture {
+    width: 90%;
+    display: block;
+    margin: auto;
+    }
+
+    //The details of the recipe
+    p {
+        margin: 5%;
+        font-size: $normal-font-size;
+    }
+
+
+}
+
+
+   

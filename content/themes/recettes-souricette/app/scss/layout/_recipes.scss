@@ -1,0 +1,117 @@
+//Category of recipe
+.recipe__category{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: $normal-font;
+    font-size: $medium-font-size;
+    color: $dark-green;
+    }
+
+//Type of recipes
+.recipe__nav {
+
+    margin-bottom: 8%;
+    a {
+        text-decoration: none;
+        font-size: $normal-font-size;
+        color: $dark-green;
+        
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+//Category "Apéritif" and "Entrée"
+.first-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+//Category "Plat principal" and "Dessert"
+.second-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+//Buttons of categories
+li.recipe__nav__item{
+        padding: 1.5%;
+        margin: 2%;
+        width: 50%;
+        background-color: $light-green;
+        font-family: $normal-font; 
+        border: solid 1.5px; 
+        text-align: center;
+}
+li.recipe__nav__item:hover{
+    background-color: $medium-green
+}
+
+//Recipes
+
+.recipes__articles{
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+//Paragraph
+p {
+    margin-bottom: 2%;
+}
+
+//Images of recipes
+img{
+    width: 48%;
+}
+}
+//Title of recipes
+.recipes__articles__title {
+    font-size: $medium-font-size;
+    color: $dark-green;
+    margin-bottom: 3%;
+}
+
+//RESPONSIVE VERSION FOR TABLET AND DESKTOP
+@media (min-width: $breakpoint-medium-tab) {
+    .recipe__nav {
+        a {
+            font-size: $medium-font-size;
+        }
+    }
+    .recipes__articles__title {
+        font-size: $large-font-size !important;
+    }
+
+    article {
+        a {
+        font-size: $medium-font-size;
+        }
+    }
+}
+
+//RESPONSIVE VERSION FOR LARGE TABLET
+@media (min-width: $breakpoint-large-tab) {
+    .recipe__nav {
+        a {
+            font-size: $large-font-size;
+        }
+    }
+    .recipes__articles__title {
+        font-size: $XL-font-size !important;
+    }
+    article {
+        a {
+        font-size: $large-font-size;
+        }
+    }
+}

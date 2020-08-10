@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les petites recettes de Souricette</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body>
+  <div class="wrapper">
+
+
+    <header class="header">
+        <div class="header__title">
+          <img src="/images/poele.png" alt="poele" class="header__firstpicture">
+          <h1 class="header__title__main">Les petites recettes de Souricette</h1>
+          <img src="/images/souris.png" alt="souris" class="header__secondpicture">
+        </div>
+        <h2 class="header__title__second">Recettes végétales gourmandes</h2>
+        <div class="header__navigation">
+        <div class= "header__headings">  
+          <span class="ui-button open-menu">
+          <i class="fa fa-bars" aria-hidden="true"></i> 
+          </span>
+          <button class="header__login__button"><a href="account.html">Mon compte</a></button>
+          <button class="header__login__button">S'inscrire</button>
+        </div>
+        <div class="header__menu">
+          <span class="ui-button close-menu">
+          <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+          </span>
+          <nav class="main-nav">
+          <ul>
+            <li class="main-nav__item">
+            <a href="recipes.html">Recettes végétariennes</a>
+            </li>
+            <li class="main-nav__item">
+            <a href="#">Recettes végétaliennes</a>
+            </li>
+            <li class="main-nav__item">
+            <a href="#">Recettes sans gluten</a>
+            </li>
+            <li class="main-nav__item">
+            <a href="#">Vos recettes</a>
+            </li>
+          </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+    <main class="main">
+      <p class="welcome">Bienvenue nom de l'utilisateur</p>
+      <h3 class="my-recipes__title">Mes recettes</h3>
+      <ul>
+          <li class="my-recipe">
+            <h4 class="my-recipe__title">Recette 1</h4>
+            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-edit" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+          </li>
+          <li class="my-recipe">
+            <h4 class="my-recipe__title">Recette 2</h4>
+            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-edit" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+          </li>
+          <li class="my-recipe">
+            <h4 class="my-recipe__title">Recette 3</h4>
+            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-edit" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+          </li>
+      </ul>
+      <button class="propose-recipe">Soumettre une nouvelle recette</button>
+   
+    </main>
+
+
+    <footer class="footer">
+      <div class="contactform-newsletterform">
+      <form class="contact-form">
+        <h3 class="contact-form__title">Formulaire de contact</h3>
+        <div class= "contact-form__fields">
+          <input type="text" class="contact-form__input" placeholder="Prénom NOM">
+          <input type="text" class="contact-form__input" placeholder="Votre Email">
+          <input type="text" id ="textarea" class="contact-form__input" placeholder="Votre message">
+          <button class="contact-form__button"><a href="#">Envoyer</a></button>
+        </div>
+      </form>
+      <div class="newsletter">
+        <h3 class="newsletter__title">Newsletter</h3>
+      <div class="newsletter__suscribe">
+        <input type="text" class="newsletter__input" placeholder="Votre Email">
+        <button class="newsletter__button"><a href="#">S'abonner</a></button>
+      </div> 
+      </div>
+    </div>
+      <div class="links">
+        <ul class="links__list">
+          <li class="links__contact-form"><a href="#">Formulaire de contact</a></li>
+          <li class="links__newsletter"><a href="#">Newsletter</a></li>
+          <li class="links__legal-mentions"><a href="#">Mentions légales</a></li>
+            <div class="social-nav">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+            </div>
+        </ul>
+      </div>
+    </footer>
+
+    
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

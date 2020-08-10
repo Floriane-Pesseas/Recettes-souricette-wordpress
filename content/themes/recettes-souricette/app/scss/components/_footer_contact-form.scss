@@ -1,0 +1,57 @@
+@media (min-width: $breakpoint-medium-tab) {
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 10%;
+    }    
+
+    //Title of contact form
+    h3.contact-form__title{
+        font-size: $large-font-size;
+        color: $dark-green;
+        display: flex;
+        margin-bottom: 1rem;
+    }
+
+    //Fields of contact form
+    .contact-form__fields{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    .contact-form__input {
+        width: 60%;
+        padding: 0.5%;
+        border: 2px solid;
+        border-radius: 4px;
+        font-family: $normal-font;
+        margin: 1%; 
+    }
+
+    //Links contact form and news letter invisible
+    .links__contact-form{
+        display: none;
+    }
+
+    .links__newsletter{
+        display: none;
+    }
+
+    //button of contact form
+    .contact-form__button{
+        margin-top:5%;
+        margin-left:1%;
+        border: none;
+        padding: 2%;
+        border-radius: 10%;
+        box-shadow:4px 4px 8px #aaa;
+	    background:#fff;
+}
+
+#textarea {
+        padding: 8%;
+    
+}
+}

@@ -1,0 +1,24 @@
+.header {
+    // Buttons "my account" and "suscribe"
+    &__login__button {
+        margin-left: 7%;
+        margin-top: 6%;
+        margin-right: 4%;
+        padding: 2%;
+        height: 10%;
+        width: 42%;
+        border-radius:12px 0 12px 0;
+        background-color: $light-green;
+        font-family: $normal-font;  
+        
+    } 
+    a {
+        text-decoration: none;
+        color:#000000;
+    }
+}
+
+//Buttons "my account" and "suscribe" with hover
+.header__login__button:hover{
+    background-color: $cyan;
+}

@@ -1,0 +1,83 @@
+//News letter title
+.newsletter__title{
+    display: none;
+}
+
+//News letter mail input for suscribe
+.newsletter__input{
+    display: none;
+}
+
+//News letter button for suscribe
+.newsletter__button{
+    display: none;
+}
+
+.newsletter{
+    @media (min-width: $breakpoint-medium-tab) { 
+        margin-top: 10%;
+        margin-right: 10%;
+    }
+}
+//Make disappear the link to access news letter (in tablet)
+.newsletter-link  {
+    @media (min-width: $breakpoint-medium-tab) { 
+        display: none;
+    }
+}
+//Newsletter title
+.newsletter__title { 
+    @media (min-width: $breakpoint-medium-tab) {
+    display: flex;
+    font-size: $large-font-size;
+    color: $dark-green;
+    font-size: $large-font-size;
+    //margin-top: -2rem;
+    margin-bottom: 1rem;
+    }
+}
+
+//Newsletter section input and button
+.newsletter__suscribe {
+    @media (min-width: $breakpoint-medium-tab) {
+        display: flex;
+        flex-direction: row;
+        } 
+}
+
+//Newsletter input
+.newsletter__input{
+    @media (min-width: $breakpoint-medium-tab) {
+        display: flex;
+        border: 2px solid;
+        border-radius: 4px;
+        font-family: $normal-font;
+        margin-right: 6%;
+    }
+}
+
+//Newsletter input
+.newsletter__input{
+    @media (min-width: $breakpoint-desktop) {
+        width: 20em;
+    }
+}
+
+//Newsletter button
+.newsletter__button{
+    @media (min-width: $breakpoint-medium-tab) {
+        display: flex;
+        border: none;
+        padding: 3%;
+        border-radius: 10%;
+        box-shadow:4px 4px 8px #aaa;
+	    background:#fff;
+    }
+}
+//Newsletter button
+.newsletter__button{
+    @media (min-width: $breakpoint-desktop) {
+        width: 6rem;
+        font-size: 1em;
+    }
+}

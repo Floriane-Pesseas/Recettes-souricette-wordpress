@@ -1,0 +1,137 @@
+
+@media (min-width: $breakpoint-medium-tab) {
+
+//HEADER
+//Header main title with pictures    
+.header {
+    font-size: $extra-large-font-size;
+
+    //Header main title
+    &__title__main {
+        font-size: $extra-large-font-size;
+    }
+    //Header catch phrase
+    &__title__second {
+        font-size: $XL-font-size;
+    }
+    //Header div with menu and buttons to connect
+        //Buttons to connect
+        .header__headings{
+            margin-left: 50%;
+
+            .header__login__button{
+                width: 70%;
+                padding: 3%; 
+                font-size: $medium-font-size;
+            }
+        }
+        //Nav menu
+        .header__menu {
+            background-color: $pale-green;
+            width: 100%;
+            position: absolute;
+            visibility: visible;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                li {
+                margin: 1%;
+                padding: 2%;
+                width: 19%;
+                }
+            }
+        }
+
+    // Button close menu style
+    .fa {
+        display: none;
+    }   
+}
+
+
+//MAIN
+    //Section Recipe of the day on tablet
+    .main__articles__first {
+    margin-top: 30%;
+    }
+    
+    //Title of the recipe
+    .main__articles__first__title {
+        font-size: $XL-font-size;
+    }
+    //Recipe details (text) 
+    p {
+            font-size: $large-font-size !important;   
+    }
+
+//FOOTER
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: 100%;
+        background-color: $transparantize-green;
+    }
+    //Section contact form and newsletter
+    .contactform-newsletterform{
+        visibility: visible !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    //Links legal mentions and facebook
+    .links__list{
+        flex-direction: row !important;
+        justify-content: flex-end;
+        margin-top: 2rem !important;
+        margin-right: 10%;
+    }
+
+    //Icon Facebook
+    .fa{
+        font-size: $large-font-size;
+        margin-left: 1.5rem;
+        margin-top: 30% !important;
+    }
+}
+
+
+
+@media (min-width: $breakpoint-large-tab) {
+
+//HEADER
+.header {
+    
+    &__title__main{
+        font-size: $XXL-font-size;
+    }
+
+    &__title__second{
+        font-size: $extra-large-font-size;
+    }
+
+    .main-nav {
+        width: 100%;
+    }
+}
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .header {
+        //Header main title
+        &__title__main {
+            font-size: $desktop-font-size;
+        }
+    }
+    //Icon Facebook
+    .fa{
+       margin-top: 55% !important;
+    }
+
+    
+}
+

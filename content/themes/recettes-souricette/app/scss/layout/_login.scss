@@ -1,0 +1,78 @@
+//Title My account
+.account__title{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: $normal-font;
+    font-size: $medium-font-size;
+    color: $dark-green;
+}
+
+//Email and input field
+.account__email{
+    text-align: center;
+    margin-bottom: 5%;
+    &__input{
+        width: 40%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10%;
+        padding: 0.5%;
+        border: solid;
+    }
+}
+
+//Password and input field
+.account__password{
+    text-align: center;
+    margin-bottom: 5%;
+    &__input{
+        width: 40%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10%;
+        padding: 0.5%;
+        border: solid;
+    }
+}
+
+//Button to validate connexion
+.connect{
+    width: 25%;
+    padding: 2%;
+    display: block;
+    margin: auto;
+    color: $dark-green;
+    border: solid;
+}
+
+//RESPONSIVE VERSION FOR TABLET AND DESKTOP
+@media (min-width: $breakpoint-medium-tab) {
+.account__title{
+    font-size: $XL-font-size;
+    margin-top: 25%;
+    margin-bottom: 3%;
+}
+
+.account__email{
+    font-size: $large-font-size;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+}
+
+.account__email__input{
+    margin-bottom: 3%;
+}
+
+.account__password{
+    font-size: $large-font-size;
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+}
+
+.connect{
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: $medium-font-size;
+}
+}

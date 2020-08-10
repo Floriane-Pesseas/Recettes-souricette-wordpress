@@ -1,0 +1,52 @@
+//Header menu recipes style
+.header__menu {  
+    visibility: hidden;
+    position: fixed;
+    background-color: transparentize($color: $dark-green, $amount: 0.3);     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    // Recipe's nav links   
+    .main-nav{
+        font-size: $large-font-size;    
+    }
+
+    // Button close menu style
+    .fa {
+        color: $light-green;
+    }
+
+    .fa:hover {
+        color: $dark-green;
+    }
+
+    // Category of recipe in menu
+    li {
+        margin: 5%;
+        padding: 5%;
+        background-color: $medium-green;
+        border-width: 20px;   
+    }
+    
+    a {
+        font-family: $normal-font;
+        font-size: $large-font-size;
+        text-decoration: none;
+        color: $light-green;
+    }
+}
+
+// Button open menu style
+.open-menu {
+    font-size: 3rem;
+    color: $dark-green;    
+}
+
+// Hover on recipe's links
+li.main-nav__item:hover {
+    background-color: $very-dark-green;
+}
+

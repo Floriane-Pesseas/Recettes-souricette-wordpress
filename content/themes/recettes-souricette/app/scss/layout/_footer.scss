@@ -1,0 +1,34 @@
+//Footer in mobile version, list
+.footer {
+
+    font-family: $normal-font;
+    display: block;
+    text-align: center;
+
+    .contactform-newsletterform {
+    visibility: hidden;
+    }
+    //List of links
+    .links__list {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    li {
+        margin: 2.5%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: $very-dark-green;    
+    }
+
+    a:hover {
+        color: $medium-green;
+    }
+    
+    .fa {
+        margin-top: 10%;
+    }
+}
+
