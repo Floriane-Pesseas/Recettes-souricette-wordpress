@@ -3,8 +3,7 @@
 <head>
   <meta <?php bloginfo('charset')?>>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Les petites recettes de Souricette</title>
-  <link rel="stylesheet" href="<?php echo get_theme_file_uri('public/css/style.css')?>"/>
+  
 </head>
 
 
