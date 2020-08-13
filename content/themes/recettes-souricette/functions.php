@@ -21,7 +21,7 @@ function recettes_souricette_enqueue() {
         true);
  }
 }
-//Function on the hook
+//Function on the hook (add_action ('name of the hook', 'name of the function'))
 add_action('wp_enqueue_scripts', 'recettes_souricette_enqueue');
 
 
