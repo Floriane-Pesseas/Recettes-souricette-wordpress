@@ -45,3 +45,10 @@ add_theme_support('post-thumbnails');
 }
 //Function on the hook
 add_action('after_setup_theme', 'recettes_souricette_setup');
+
+
+
+//Menus
+register_nav_menus(
+    ['main'=> 'menu principal']
+);

@@ -34,20 +34,13 @@
           <i class="fa fa-times-circle-o" aria-hidden="true"></i>
           </span>
           <nav class="main-nav">
-          <ul>
-            <li class="main-nav__item">
-            <a href="recipes.html">Recettes végétariennes</a>
-            </li>
-            <li class="main-nav__item">
-            <a href="#">Recettes végétaliennes</a>
-            </li>
-            <li class="main-nav__item">
-            <a href="#">Recettes sans gluten</a>
-            </li>
-            <li class="main-nav__item">
-            <a href="#">Vos recettes</a>
-            </li>
-          </ul>
+
+          <?php
+
+          wp_nav_menu(['theme_location' => 'main'])
+          ?>
+
+
           </nav>
         </div>
       </div>
