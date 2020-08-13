@@ -13,10 +13,10 @@
 
     <header class="header">
         <div class="header__title">
-          <img src="content/themes/recettes-souricette/public/images/poele.png" alt="poele" class="header__firstpicture">
+        <img src="<?php bloginfo('template_url'); ?>/public/images/poele.png" alt="poele" class="header_firstpicture">
           <h1 class="header__title__main">
           <?php bloginfo('name')?></h1>
-          <img src="content/themes/recettes-souricette/public/images/souris.png" alt="souris" class="header__secondpicture">
+          <img src="<?php bloginfo('template_url'); ?>/public/images/souris.png" alt="poele" class="header_secondpicture">
         </div>
         <h2 class="header__title__second">
         <?php bloginfo('description')?>

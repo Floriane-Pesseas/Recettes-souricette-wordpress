@@ -1,4 +1,3 @@
-
 <section class="main__articles__first">
       <h2 class="main__articles__first__title">
       <?php the_title(); ?></h2>
