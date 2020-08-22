@@ -12,6 +12,7 @@
 
 
     <header class="header">
+    <a href="<?= home_url(); ?>">
         <div class="header__title">
         <img src="<?php bloginfo('template_url'); ?>/public/images/poele.png" alt="poele" class="header_firstpicture">
           <h1 class="header__title__main">
