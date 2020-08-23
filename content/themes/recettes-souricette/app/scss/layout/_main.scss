@@ -1,3 +1,5 @@
+
+
 //Section Recipe of the day
 .main__articles__first{
    
@@ -13,7 +15,7 @@
 
     //Picture of the recipe
     &__picture {
-    width: 90%;
+    width: 20%;
     display: block;
     margin: auto;
     }
@@ -27,5 +29,10 @@
 
 }
 
+.recipes__frontpage {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
 
    

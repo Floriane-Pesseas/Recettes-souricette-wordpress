@@ -61,10 +61,14 @@
     //Title of the recipe
     .main__articles__first__title {
         font-size: $XL-font-size;
+        margin-top: 20% !important;
     }
     //Recipe details (text) 
     p {
             font-size: $large-font-size !important;   
+    }
+    .recipes__frontpage {
+        width: 30% !important;
     }
 
 //FOOTER
