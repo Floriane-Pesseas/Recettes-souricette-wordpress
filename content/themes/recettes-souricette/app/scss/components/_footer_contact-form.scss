@@ -1,4 +1,8 @@
 @media (min-width: $breakpoint-medium-tab) {
+
+    .footer {
+        margin-top: 20%;
+    }
     .contact-form{
         display: flex;
         flex-direction: column;
@@ -54,4 +58,25 @@
         padding: 8%;
     
 }
+
+.contact-form__title {
+    visibility: visible !important;
+    margin-top: 4%;
+    margin-left: 8%;
+    }
+
+.wpcf7 {
+    display: flex !important;
+    width: 40%;
+    margin-top: 5%;
+    }
+label {
+    font-size: $medium-font-size;
+}
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .contact-form__title {
+        margin-left: 5%;
+        }
 }
