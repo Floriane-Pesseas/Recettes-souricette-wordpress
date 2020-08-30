@@ -15,7 +15,7 @@ get_template_part('template-parts/recipes-category');
 //Custom loop
 //https://developer.wordpress.org/reference/classes/wp_query/
 //instanciate WP_QUERY class (create object), search by tag
-$query = new WP_Query( array( 'tag' => 'végétalienne' ) );
+$query = new WP_Query( array( 'category_name' => 'recette-vegetalienne' ) );
 
 if ($query->have_posts()): while 
 ($query->have_posts()) : $query->the_post();
